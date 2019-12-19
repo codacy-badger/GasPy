@@ -6,8 +6,8 @@ verify_ssl = true
 [packages]
 django = "==3.0.*"
 
-gunicorn = "==19.9.*"
-psycopg2 = "==2.7.6.*"
+gunicorn = "==20.0.*"
+psycopg2 = "==2.8.*"
 reportlab = "==3.5.*"
 
 django-role-permissions = "==2.2.*"

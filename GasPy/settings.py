@@ -46,6 +46,9 @@ INSTALLED_APPS = [
     # django-crontabgit
     # https://github.com/kraiz/django-crontab
     "django_crontab",
+
+    # Custom models
+    "product.apps.ProductConfig",
 ]
 
 MIDDLEWARE = [

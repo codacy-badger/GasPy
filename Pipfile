@@ -19,7 +19,7 @@ rope = "*"
 safety = "*"
 pylint-django = "*"
 black = "*"
-codecov = "*"
+coverage  = "*"
 
 [requires]
 python_version = "3.7"

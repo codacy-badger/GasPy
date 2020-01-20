@@ -5,4 +5,4 @@ install:
     - pip install pipenv
     - pipenv install --dev
 script:
-    - pipenv run coverage report -m
+    - pipenv run coverage run --source='.' manage.py test 

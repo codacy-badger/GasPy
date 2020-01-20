@@ -5,11 +5,9 @@ verify_ssl = true
 
 [packages]
 django = "==3.0.*"
-
 gunicorn = "==20.0.*"
 psycopg2 = "==2.8.*"
 reportlab = "==3.5.*"
-
 django-role-permissions = "==2.2.*"
 django-guardian = "==2.1.*"
 django-crontab = "==0.7.*"
@@ -21,10 +19,10 @@ rope = "*"
 safety = "*"
 pylint-django = "*"
 black = "*"
-
+coverage  = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
